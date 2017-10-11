@@ -9,12 +9,17 @@ to manage.
 
 ### Categories
 
+* [Docker](#docker)
 * [Mac](#mac)
 * [Screen](#screen)
 * [Ubuntu](#ubuntu)
 * [Vim](#vim)
 
 ---
+
+### Docker
+
+- [Assign External Static IPs](docker/assign-external-static-ips.md)
 
 ### Mac
 
