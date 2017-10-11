@@ -1,12 +1,19 @@
 # Assign External Static IPs
 
+Add a new target address to the host interface
 ```
-# create a new bridge network with your subnet and gateway for your ip block
-$ docker network create --subnet 203.0.113.0/24 --gateway 203.0.113.254 iptastic
+$ sudo ip addr add 10.12.0.117/21 dev em1
+```
 
-# run a nginx container with a specific ip in that block
+Run docker with `-p` option to bind to exposed ports
+```
 $ docker run --rm -it --net iptastic --ip 203.0.113.2 nginx
 ```
 
+#### Notes
+Setting up something like GitLab requires ports 22, 80, 443 and by
+default SSH & Apache2 listen on all IPs so they need to be restricted
+to use the other IP and the same ports
+
 ### Source
-* https://blog.jessfraz.com/post/ips-for-all-the-things/
+* http://blog.oddbit.com/2014/08/11/four-ways-to-connect-a-docker/
