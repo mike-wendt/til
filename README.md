@@ -18,7 +18,7 @@ to manage.
 
 ### Mac
 
-- [Remap the Home and End Keys](mac/remap-home-end.md)
+- [Remap Home and End Keys](mac/remap-home-and-end-keys.md)
 
 ### Screen
 
@@ -27,7 +27,7 @@ to manage.
 ### Ubuntu
 
 - [Rollback from Unity to Gnome](ubuntu/rollback-from-unity-to-gnome.md)
-- [VirtualBox Guest Additions Install Tips](ubuntu/virtualbox-guest-additions.md)
+- [VirtualBox Guest Additions](ubuntu/virtualbox-guest-additions.md)
 
 ### Vim
 
