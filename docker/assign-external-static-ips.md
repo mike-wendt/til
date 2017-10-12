@@ -7,7 +7,7 @@ $ sudo ip addr add 10.12.0.117/21 dev em1
 
 Run docker with `-p` option to bind to exposed ports
 ```
-$ docker run --rm -it --net iptastic --ip 203.0.113.2 nginx
+$ docker run -d --name web -p 10.12.0.117:80:80 nginx
 ```
 
 #### Notes
