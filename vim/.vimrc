@@ -1,6 +1,5 @@
 syn on
 
-# sets 80 char line
 if exists('+colorcolumn')
   set colorcolumn=80
 else
