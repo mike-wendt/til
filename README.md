@@ -9,6 +9,7 @@ to manage.
 
 ### Categories
 
+* [Bash](#bash)
 * [Docker](#docker)
 * [Mac](#mac)
 * [Screen](#screen)
@@ -18,6 +19,10 @@ to manage.
 * [VirtualBox](#virtualbox)
 
 ---
+
+### Bash
+
+- [Bash Aliases](bash/bash-aliases.md)
 
 ### Docker
 
