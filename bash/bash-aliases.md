@@ -12,4 +12,5 @@ alias gip='git push'
 alias gil='git pull'
 alias gid='git diff'
 alias gids='git diff --staged'
+alias gis='git status'
 ```
