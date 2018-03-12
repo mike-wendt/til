@@ -12,6 +12,7 @@ to manage.
 * [Bash](#bash)
 * [Docker](#docker)
 * [Mac](#mac)
+* [Other](#other)
 * [Screen](#screen)
 * [SSH](#ssh)
 * [Ubuntu](#ubuntu)
@@ -31,6 +32,10 @@ to manage.
 ### Mac
 
 - [Remap Home and End Keys](mac/remap-home-and-end-keys.md)
+
+### Other
+
+- [Encrypt zip File](other/encrypt-zip-file.md)
 
 ### Screen
 
