@@ -11,6 +11,7 @@ to manage.
 
 * [Bash](#bash)
 * [Docker](#docker)
+* [Git](#git)
 * [Mac](#mac)
 * [Other](#other)
 * [Screen](#screen)
@@ -28,6 +29,10 @@ to manage.
 ### Docker
 
 - [Assign External Static IPs](docker/assign-external-static-ips.md)
+
+### Git
+
+- [Remove Files from Commit History](git/remove-files-from-commit-history.md)
 
 ### Mac
 
