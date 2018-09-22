@@ -25,6 +25,7 @@ to manage.
 ### Bash
 
 - [Bash Aliases](bash/bash-aliases.md)
+- [Bash Search](bash/bash-search.md)
 
 ### Docker
 
