@@ -21,4 +21,5 @@ alias gis='git status'
 
 ```
 alias stree='open -a /Applications/Sourcetree.app/ .'
+alias vcode='open -a /Applications/Visual\ Studio\ Code.app/ .'
 ```
