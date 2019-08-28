@@ -12,6 +12,7 @@ to manage.
 * [Bash](#bash)
 * [Docker](#docker)
 * [Git](#git)
+* [Linux](#linux)
 * [Mac](#mac)
 * [Other](#other)
 * [Screen](#screen)
@@ -34,6 +35,10 @@ to manage.
 ### Git
 
 - [Remove Files from Commit History](git/remove-files-from-commit-history.md)
+
+### Linux
+
+- [sudo](linux/sudo.md)
 
 ### Mac
 
