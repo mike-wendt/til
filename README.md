@@ -39,6 +39,7 @@ to manage.
 ### Linux
 
 - [sudo](linux/sudo.md)
+- [User renaming](linux/user-renaming.md)
 
 ### Mac
 
