@@ -78,7 +78,7 @@ Inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ## License
 
-&copy; 2015-2017 Mike Wendt
+&copy; 2015-2020 Mike Wendt
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
