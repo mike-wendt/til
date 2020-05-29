@@ -1,0 +1,13 @@
+# Prevent session timeout
+ServerAliveInterval 30
+
+# Setup mac ssh keys; `UseKeychain` is only on macOS
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+
+# Use HTTPS instead of SSH for git+ssh
+Host github.com
+  Hostname ssh.github.com
+  Port 443
