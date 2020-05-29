@@ -56,6 +56,7 @@ to manage.
 ### SSH
 
 - [Prevent SSH Timeout](ssh/prevent-ssh-timeout.md)
+- [Using GIT+SSH over HTTPS](https://help.github.com/en/github/authenticating-to-github/using-ssh-over-the-https-port)
 
 ### Ubuntu
 
