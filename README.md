@@ -62,6 +62,7 @@ to manage.
 ### Ubuntu
 
 - [Rollback from Unity to Gnome](ubuntu/rollback-from-unity-to-gnome.md)
+- [Ubuntu Headless](ubuntu/ubuntu-headless.md)
 - [VirtualBox Guest Additions](ubuntu/virtualbox-guest-additions.md)
 
 ### Vim
