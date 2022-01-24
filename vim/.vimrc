@@ -1,5 +1,8 @@
 syn on
 
+" Disable mouse visual mode
+set mouse-=a
+
 " Highlight char 81 for long lines
 2mat ErrorMsg '\%81v.'
 
