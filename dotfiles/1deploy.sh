@@ -11,8 +11,13 @@ function deploy {
   logger "Backing up current config to $BKDIR"
   ./0sync.sh $BKDIR
   logger "Deploying dotfiles to ~"
-  rsync -aPh --exclude={'0sync.sh','1deploy.sh','backups'} ./* ~
+  rsync -aPh .zshrc .zprofile .vimrc .p10k.zsh .gitconfig .gitignore_global ~
   logger "Deployment complete"
+  logger "WARNING: Verify username matches current system '$USER'"
+  logger "Installing antigen..."
+  curl -L git.io/antigen > ~/antigen.zsh
+  logger "Run 'omz reload' to update OMZ and activate antigen"
+  logger "Go to https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#fonts to install fonts"
   exit
 }
 
