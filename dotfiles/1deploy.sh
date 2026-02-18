@@ -24,9 +24,6 @@ function deploy {
   logger "Deploying dotfiles to ~"
   rsync -aPh .zshrc .zprofile .vimrc .p10k.zsh .gitconfig .gitignore_global ~
   logger "Deployment complete"
-  logger "WARNING: Verify username matches current system '$USER'"
-  logger "Installing antigen..."
-  curl -L git.io/antigen > ~/antigen.zsh
   logger "Run 'omz reload' to update OMZ and activate antigen"
   logger "Go to https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#fonts to install fonts"
   exit
