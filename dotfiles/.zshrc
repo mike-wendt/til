@@ -132,12 +132,7 @@ antigen apply
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C "$HOME/bin/terraform" terraform
 
 # Load homebrew paths
 eval "$(/opt/homebrew/bin/brew shellenv)"
-export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
-
-export PATH="$HOME/.pixi/bin:$PATH"
