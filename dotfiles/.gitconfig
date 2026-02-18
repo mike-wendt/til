@@ -1,0 +1,7 @@
+[user]
+	name = Mike Wendt
+	email = 1915404+mike-wendt@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
+[url "git@github.com:"]
+	insteadOf = https://github.com/
