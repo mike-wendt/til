@@ -9,7 +9,7 @@ fi
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/mike/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -117,6 +117,7 @@ alias pcra='pre-commit run --all-files'
 alias actt='act --container-architecture linux/amd64'
 alias gcml='gcm && gf && gl'
 alias gcdl='gco dev && gf && gl'
+# NOTE: This alias assumes a Git remote named "mike". Change "mike" to your remote (e.g., "origin") if different.
 alias gpsupm='git push --set-upstream mike $(git_current_branch)'
 
 source ~/antigen.zsh
@@ -133,10 +134,10 @@ antigen apply
 
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /Users/mike/bin/terraform terraform
+complete -o nospace -C "$HOME/bin/terraform" terraform
 
 # Load homebrew paths
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
 
-export PATH="/Users/mike/.pixi/bin:$PATH"
+export PATH="$HOME/.pixi/bin:$PATH"

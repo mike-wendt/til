@@ -21,8 +21,8 @@ function deploy {
   exit
 }
 
-# Check that we want to overrite, always backup first
-echo "Are you sure you want to deploy these files over the exisiting install?"
+# Check that we want to overwrite, always backup first
+echo "Are you sure you want to deploy these files over the existing install?"
 select yn in "Yes" "No"; do
   case $yn in
     Yes ) deploy;;
