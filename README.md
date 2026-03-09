@@ -44,6 +44,7 @@ to manage.
 ### Mac
 
 - [Remap Home and End Keys](mac/remap-home-and-end-keys.md)
+- [Remap Keyboard Brightness](mac/remap-keyboard-brightness.md)
 
 ### Other
 
