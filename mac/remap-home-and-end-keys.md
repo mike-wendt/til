@@ -2,10 +2,11 @@
 
 ### For Non-Terminal Apps
 
-Create the directory/file if not already there: 
-`~/Library/KeyBindings/DefaultKeyBinding.dict`
+Run the following code to set the home/end keymapping:
 
 ```
+mkdir -p ~/Library/KeyBindings/
+cat << EOF > ~/Library/KeyBindings/DefaultKeyBinding.dict
 {
 /* Remap Home / End to be correct :-) */
 "\UF729"  = "moveToBeginningOfLine:";                   /* Home         */
@@ -13,6 +14,7 @@ Create the directory/file if not already there:
 "$\UF729" = "moveToBeginningOfLineAndModifySelection:"; /* Shift + Home */
 "$\UF72B" = "moveToEndOfLineAndModifySelection:";       /* Shift + End  */
 }
+EOF
 ```
 
 ### For Terminal
