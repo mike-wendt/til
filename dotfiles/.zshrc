@@ -114,8 +114,8 @@ alias pcin='pre-commit install'
 alias pcau='pre-commit autoupdate'
 alias pcra='pre-commit run --all-files'
 alias actt='act --container-architecture linux/amd64'
-alias gcml='gcm && gf && gl'
-alias gcdl='gco dev && gf && gl'
+alias gcml='gcm && gfa && ggl'
+alias gcdl='gco dev && gfa && ggl'
 # NOTE: This alias assumes a Git remote named "mike". Change "mike" to your remote (e.g., "origin") if different.
 alias gpsupm='git push --set-upstream mike $(git_current_branch)'
 
