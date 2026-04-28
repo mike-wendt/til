@@ -118,6 +118,7 @@ alias gcml='gcm && gfa && ggl'
 alias gcdl='gco dev && gfa && ggl'
 # NOTE: This alias assumes a Git remote named "mike". Change "mike" to your remote (e.g., "origin") if different.
 alias gpsupm='git push --set-upstream mike $(git_current_branch)'
+alias colimavm='colima start --arch x86_64 --vm-type vz --cpu 6 --memory 12 --disk 128'
 
 source ~/antigen.zsh
 antigen use oh-my-zsh
