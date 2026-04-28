@@ -104,8 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias stree='open -a /Applications/Sourcetree\ 2.app/ .'
-alias vcode='open -a /Applications/Visual\ Studio\ Code.app/ .'
+alias stree='open -a /Applications/Sourcetree.app/ .'
 alias zcode='open -a /Applications/Zed.app/ .'
 alias tfir='terraform init -reconfigure'
 alias tfdr='terraform-docs markdown . > README.md'
