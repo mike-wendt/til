@@ -104,8 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias stree='open -a /Applications/Sourcetree\ 2.app/ .'
-alias vcode='open -a /Applications/Visual\ Studio\ Code.app/ .'
+alias stree='open -a /Applications/Sourcetree.app/ .'
 alias zcode='open -a /Applications/Zed.app/ .'
 alias tfir='terraform init -reconfigure'
 alias tfdr='terraform-docs markdown . > README.md'
@@ -115,10 +114,11 @@ alias pcin='pre-commit install'
 alias pcau='pre-commit autoupdate'
 alias pcra='pre-commit run --all-files'
 alias actt='act --container-architecture linux/amd64'
-alias gcml='gcm && gf && gl'
-alias gcdl='gco dev && gf && gl'
+alias gcml='gcm && gfa && ggl'
+alias gcdl='gco dev && gfa && ggl'
 # NOTE: This alias assumes a Git remote named "mike". Change "mike" to your remote (e.g., "origin") if different.
 alias gpsupm='git push --set-upstream mike $(git_current_branch)'
+alias colimavm='colima start --arch x86_64 --vm-type vz --cpu 6 --memory 12 --disk 128'
 
 source ~/antigen.zsh
 antigen use oh-my-zsh
