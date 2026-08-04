@@ -6,12 +6,12 @@ function logger {
 
 # Setup new machine with nothing installed
 function setup {
-  logger "Installing OMZ"
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  logger "Installing antigen..."
-  curl -L git.io/antigen > ~/antigen.zsh
   logger "Installing homebrew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  logger "Installing OMZ"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  logger "Installing zsh theme and plugins via brew"
+  brew install powerlevel10k zsh-syntax-highlighting
   break
 }
 
@@ -24,13 +24,13 @@ function deploy {
   logger "Deploying dotfiles to ~"
   rsync -aPh .zshrc .zprofile .vimrc .p10k.zsh .gitconfig .gitignore_global ~
   logger "Deployment complete"
-  logger "Run 'omz reload' to update OMZ and activate antigen"
+  logger "Run 'omz reload' or open a new terminal to activate"
   logger "Go to https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#fonts to install fonts"
   exit
 }
 
 # Check for new setup, install if confirmed
-echo "Should OMZ, Antigen & Homebrew be installed?"
+echo "Should Homebrew, OMZ, powerlevel10k & zsh-syntax-highlighting be installed?"
 select yn in "Yes" "No"; do
   case $yn in
     Yes ) setup;;
